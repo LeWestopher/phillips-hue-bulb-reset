@@ -1,0 +1,25 @@
+{
+  "name": "phillips-hue-bulb-reset",
+  "version": "0.1.0",
+  "description": "An app to fix Phillips Hue bulbs that have accidentally been paired with a SmartThings hub before a Hue bridge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phillips",
+    "hue",
+    "iot",
+    "automation",
+    "lighting"
+  ],
+  "author": "Wes King",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "libnmap": "^0.4.8",
+    "minimist": "^1.2.0",
+    "request": "^2.83.0"
+  }
+}
